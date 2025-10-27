@@ -32,7 +32,7 @@ const StopWatch = () => {
     }
     return (
         <div style={{padding:"10px"}}>
-            <h1>StopWatch</h1>
+            <h1>Stopwatch</h1>
             <p>Time: {formatTime(elapsedTime)}</p>
             <button onClick={handleStartStop}>
                 {isRunning ? "Stop" : "Start"}
