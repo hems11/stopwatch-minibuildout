@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 const StopWatch = () => {
 
-    const [elapsedTime, setElapsedTime] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
+    const [elapsedTime, setElapsedTime] = useState(0);
     
     useEffect(() =>{
         let intervalID;
